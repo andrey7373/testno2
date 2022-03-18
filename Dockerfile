@@ -1,7 +1,5 @@
 FROM debian:sid
 
-ARG V2RAY_VERSION=v1.3.1
-
 COPY conf/ /conf
 COPY entrypoint.sh /entrypoint.sh
 
