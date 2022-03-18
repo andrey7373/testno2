@@ -9,6 +9,6 @@ RUN set -ex\
     && apt install -y wget qrencode shadowsocks-libev nginx-light jq \
     && apt clean -y \
     && chmod +x /entrypoint.sh \
-    && mkdir -p /etc/shadowsocks-libev /v2raybin /wwwroot \
+    && mkdir -p /etc/shadowsocks-libev /wwwroot \
 
 CMD /entrypoint.sh
