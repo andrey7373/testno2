@@ -10,5 +10,3 @@ RUN set -ex\
     && apt clean -y \
     && chmod +x /entrypoint.sh \
     && mkdir -p /etc/shadowsocks-libev /wwwroot \
-
-CMD /entrypoint.sh
